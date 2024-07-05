@@ -4,10 +4,10 @@ const blogs = [
         title: "Introduction to React",
         content: "localStorage came about around 2009 as a 5MB string based storage. Let’s cut to the chase with some bullet points since our attention spans are in disarray these days: A collection of Strings: It can only store strings. If you want to store or retrieve you have to serialize and deserialize. If you forget to you may be exposed to quirks that have been responsible for all sorts of broken websites. E.g. When you store “true” or “false” there is also a potential `null`, `undefined` or “” to look out for depending on your setup. No Structured Data: JavaScript has a thing called The structured clone algorithm. You really need to know this is a thing. Modern APIs and updated APIs such as postMessage, WebWorkers, IndexedDB, Caches API, BroadcastChannel, Channel Messaging API, MessagePort and the History API all use structured data. It solves the problem with serializing and deserializing JSON within an app. localStorage had not been updated with this feature and there are no discussions around it happening in the future.",
         author: {
-            name: "Prajyot Pathade",
+            name: "Rushikesh Dolas",
             avatar: "https://i.pravatar.cc/150?img=58"
         },
-        date: "June 08 2024",
+        date: "May 25 2024",
         categories: ["React", "Javascript", "Frontend"],
         readTime: "3 min read"
     },
